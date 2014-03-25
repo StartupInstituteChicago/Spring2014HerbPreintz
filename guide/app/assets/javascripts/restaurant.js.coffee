@@ -1,0 +1,2 @@
+#$ ->
+#  alert "hello CS2"
