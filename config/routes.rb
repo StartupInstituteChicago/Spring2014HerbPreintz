@@ -1,4 +1,10 @@
-Reservester::Application.routes.draw do
+Guide::Application.routes.draw do
+
+  resources :restaurants
+
+  root 'welcome#index'
+  get "welcome/index"
+  #delete /restaurants/:id(.:format)      restuarants#destroy
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
